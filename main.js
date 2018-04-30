@@ -6,9 +6,9 @@ $("#chat_input").on('keypress', function(evt){
 });
 
 $("#send_button").on('click', function(evt){
-	var msg1 = $("#chat_input").val();
-	if (msg1) {
-		appendMsg(msg1);
+	var msg = $("#chat_input").val();
+	if (msg) {
+		appendMsg(msg);
 	}
 });
 
